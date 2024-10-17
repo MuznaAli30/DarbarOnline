@@ -50,7 +50,7 @@ export default function page() {
                 Family Gathering
               </div>
             </div>
-            <button className="max-sm:ml-3 font-mono bg-[#DAA760] mt-5 text-black w-44 p-4 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
+            <button className="max-sm:ml-3 h-16 font-mono bg-[#DAA760] mt-5 text-black w-44 p-4 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
               CONTACT US
             </button>
           </div>

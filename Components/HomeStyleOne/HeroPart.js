@@ -52,9 +52,9 @@ export default function Page() {
               <br /> Dishes
             </div>
             <Link href={"/ReserveOne"}>
-            <button className="bg-[#DAA760] max-lg:m-5 mt-5 text-black w-56 p-4 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
-              RESERVE NOW
-            </button>
+              <button className="bg-[#DAA760] max-lg:m-5 mt-5 text-black w-56 p-4 h-16 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
+                RESERVE NOW
+              </button>
             </Link>
           </div>
           <div className="text-[#eddcdc] w-[20%] max-lg:w-[90%] text-2xl font-serif">

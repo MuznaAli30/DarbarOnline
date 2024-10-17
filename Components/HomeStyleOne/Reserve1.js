@@ -24,7 +24,7 @@ export default function page() {
           
             
             <Link href={"/ReserveOne"}>
-            <button className="bg-[#DAA760]  mt-5 max-lg:mt-0 max-lg:p-4 text-black w-60 p-5 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
+            <button className="bg-[#DAA760] h-16  mt-5 max-lg:mt-0 max-lg:p-4 text-black w-60 p-5 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
               MAKE A RESERVATION
             </button>
             </Link>

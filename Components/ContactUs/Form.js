@@ -136,7 +136,7 @@ export default function Form() {
               <input
                 type="text"
                 placeholder="John"
-                className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760]"
+                className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760] h-16 w-full"
               />
             </div>
             <div className="flex flex-col max-sm:w-full">
@@ -146,7 +146,7 @@ export default function Form() {
               <input
                 type="email"
                 placeholder="mail@mail.com"
-                className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760]"
+                className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760] h-16 w-full"
               />
             </div>
           </div>
@@ -157,7 +157,7 @@ export default function Form() {
             <input
               type="text"
               placeholder="Subject"
-              className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760]"
+              className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760] h-16"
             />
           </div>
           <div className="flex flex-col">
