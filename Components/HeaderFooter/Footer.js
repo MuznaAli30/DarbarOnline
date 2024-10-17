@@ -98,17 +98,17 @@ export default function page() {
       </div>
       <div className="flex">
       <div class="flex items-center justify-around text-3xl gap-24 text-md font-medium  text-[#d08829] max-lg:gap-10 max-lg:items-center">
-          <div className="cursor-pointer hover:text-[#bec7cc] hover:duration-700">
-          <FaFacebookF />
+      <div >
+          <FaFacebookF className="cursor-pointer hover:text-[#bec7cc] hover:duration-700"/>
           </div>
-          <div className="cursor-pointer hover:text-[#bec7cc] hover:duration-700">
-          <FaTwitter />
+          <div >
+          <FaTwitter className="cursor-pointer hover:text-[#bec7cc] hover:duration-700"/>
           </div>
-          <div className="cursor-pointer hover:text-[#bec7cc] hover:duration-700">
-          <FaInstagram />
+          <div>
+          <FaInstagram className="cursor-pointer hover:text-[#bec7cc] hover:duration-700"/>
           </div>
-          <div className="cursor-pointer hover:text-[#bec7cc] hover:duration-700">
-          <SiTripadvisor />
+          <div>
+          <SiTripadvisor className="cursor-pointer hover:text-[#bec7cc] hover:duration-700"/>
           </div>
         </div>
       </div>
