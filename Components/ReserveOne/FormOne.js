@@ -80,7 +80,7 @@ export default function FormOne() {
             </div>
 
             {/* 6th input field */}
-            <div className="flex flex-col max-sm:w-[90%] w-full">
+            <div className="flex flex-col max-sm:w-[90%] w-full mt-3">
                 <label className="text-white text-lg mb-3">
                 NUMBER OF PERSON <span className="text-[#DAA760]">*</span>
                 </label>
@@ -93,7 +93,7 @@ export default function FormOne() {
 
             {/* submit button */}
             <div className="flex items-center justify-start">
-              <button className="font-mono h-16 w-[45%] max-sm:w-full bg-[#DAA760] mt-5 text-black p-4 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
+              <button className="font-mono h-16 w-[45%] max-sm:w-full max-lg:w-full bg-[#DAA760] mt-5 text-black p-4 hover:bg-[#130F0C] hover:duration-300 hover:text-white hover:border-2 border-opacity-100">
                 MAKE A RESERVATION
               </button>
             </div>
