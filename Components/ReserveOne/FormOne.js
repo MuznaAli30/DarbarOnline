@@ -80,28 +80,16 @@ export default function FormOne() {
             </div>
 
             {/* 6th input field */}
-            <div className="flex flex-col mt-5">
-              <label className="text-white font-mono text-lg mb-3">
+            <div className="flex flex-col max-sm:w-[90%] w-full">
+                <label className="text-white text-lg mb-3">
                 NUMBER OF PERSON <span className="text-[#DAA760]">*</span>
-              </label>
-              <select
-                className="p-6 cursor-pointer bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760] h-16"
-                defaultValue=""
-              >
-                <option className="p-9" value="1">
-                  1 Person
-                </option>
-                <option className="p-9" value="2">
-                  2 Person
-                </option>
-                <option className="p-9" value="3">
-                  3 Person
-                </option>
-                <option className="p-9" value="4">
-                  4 Person
-                </option>
-              </select>
-            </div>
+                </label>
+                <input
+                  type="text"
+                  placeholder="Persons"
+                  className="p-5 bg-[#1A1C1D] text-white hover:border hover:border-[#DAA760] h-16 w-[95%]"
+                />
+              </div>
 
             {/* submit button */}
             <div className="flex items-center justify-start">
